@@ -1,4 +1,5 @@
 package Material;
+import Util.Counter;
 
 import java.time.LocalDate;
 public class Book implements Material{
@@ -51,8 +52,15 @@ public class Book implements Material{
         borrowed = false;
     }
 
-
-    
-    public Book(long id, )
+    public Book(String isbn, String author, String name, String description){
+      this.isbn = isbn;
+      this.author = author;
+      this.name = name;
+      this.description = description
+      this.id = Counter.newId();
+      this.borrowed = false;
+      this.dueDate = null;
+      this.borrowDate = null;
+    }
 
 }
