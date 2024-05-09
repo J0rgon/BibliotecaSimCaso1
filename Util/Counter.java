@@ -1,4 +1,4 @@
-package Counter;
+package Util;
 public class Counter{
     private static long counter;
     public static long newId(){

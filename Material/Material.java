@@ -10,5 +10,4 @@ public interface Material{
     public void borrow();
     public void giveBack();
 
-    
 }
